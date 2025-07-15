@@ -18,7 +18,7 @@ class FormStates(StatesGroup):
     Name = State()
     Phone = State()
     Topic = State()
-    account = State()
+    Account = State()
 
 
 bot = Bot(token=API_TOKEN)
